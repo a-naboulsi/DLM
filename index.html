@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dark & Light Mode Toggle javascript</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1 class="font-effect-fire">Dark & Light Mode Toggle</h1>
+      <label class="switch">
+        <input type="checkbox" onclick="changeMode()">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <script>
+      function changeMode() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+      }
+      
+    </script>
+  </body>
+</html>
